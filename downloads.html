@@ -1,94 +1,116 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <base href="../">
-        <title>Welcome to Classic 7!</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" href="Assets/Branding/favicon.png">
 
-        <meta name="title" content="Classic 7 - Your PC, resimplified.">
-        <meta name="description" content="Classic 7 is a Windows 10 modification designed to look 1:1 with Windows 7.">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Classic 7!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Assets/Branding/favicon.png">
 
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://classic7.lol">
-        <meta property="og:title" content="Classic 7 — Your PC, resimplified.">
-        <meta property="og:description" content="Classic 7 is a Windows 10 modification designed to look 1:1 with Windows 7.">
-        <meta property="og:image" content="https://classic7.lol/Assets/Preview.png">
-        <meta property="og:image:width" content="1112">
-        <meta property="og:image:height" content="311">
-    </head>
-    <body>
-        <div class="ctn-wrapper">
-            <div class="container">
-                <div class="navigation-bar">
-                    <img alt="Classic 7 Wordmark" src="Assets/Branding/wordmark.png" class="nav-wm">
-                    <div class="nav-links">
-                        <a href="/" class="nav-link-main">
-                            <div class="nav-link-layout">
-                                <img alt="Home Icon" src="Assets/Icons/Home.ico">
-                                <div class="nav-link-desc">
-                                    <h3>Home</h3>
-                                    <p>The home page of the website.</p>
-                                </div>
+    <meta name="title" content="Classic 7 - Your PC, resimplified.">
+    <meta name="description" content="Classic 7 is a Windows 10 modification designed to look 1:1 with Windows 7.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://classic7.lol">
+    <meta property="og:title" content="Classic 7 — Your PC, resimplified.">
+    <meta property="og:description"
+        content="Classic 7 is a Windows 10 modification designed to look 1:1 with Windows 7.">
+    <meta property="og:image" content="https://classic7.lol/Assets/Preview.png">
+    <meta property="og:image:width" content="1112">
+    <meta property="og:image:height" content="311">
+</head>
+
+<body>
+    <div class="ctn-wrapper">
+        <div class="container">
+            <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle">
+            <div class="mobile-header">
+                <label for="mobile-menu-toggle" class="burger-icon">&#9776;</label>
+                <img alt="Classic 7 Wordmark" src="Assets/Branding/wordmark.png" class="mobile-nav-wm">
+            </div>
+            <div class="navigation-bar">
+                <img alt="Classic 7 Wordmark" src="Assets/Branding/wordmark.png" class="nav-wm">
+                <div class="nav-links">
+                    <a href="/" class="nav-link-main">
+                        <div class="nav-link-layout">
+                            <img alt="Home Icon" src="Assets/Icons/Home.ico">
+                            <div class="nav-link-desc">
+                                <h3>Home</h3>
+                                <p>The home page of the website.</p>
                             </div>
-                        </a>
-                        <a href="downloads.html" class="nav-link-main">
-                            <div class="nav-link-layout">
-                                <img alt="Download Folder Icon" src="Assets/Icons/Downloads.ico">
-                                <div class="nav-link-desc">
-                                    <h3>Downloads</h3>
-                                    <p>Download Classic 7 reliably from our stable and fast mirrors!</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="credits.html" class="nav-link-main">
-                            <div class="nav-link-layout">
-                                <img alt="People Together Icon" src="Assets/Icons/Credits.ico">
-                                <div class="nav-link-desc">
-                                    <h3>Credits</h3>
-                                    <p>The people who made Classic 7 alive and possible.</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="https://ko-fi.com/patrickpbt" class="nav-link-main">
-                            <div class="nav-link-layout">
-                                <img alt="Star Icon" src="Assets/Icons/Donate.ico">
-                                <div class="nav-link-desc">
-                                    <h3>Donate</h3>
-                                    <p>If you like our work, please donate to us to support our work!</p>
-                                </div>
-                            </div>
-                        </a>
-                        <div class="extra-nav-links">
-                            <a href="https://discord.gg/srjXHNjbjS">
-                                <img alt="Mail Icon" src="Assets/Icons/Contact.ico" class="extra-nav">
-                            </a>
-                            <a href="https://github.com/Classic7-Mod">
-                                <img alt="GitHub Icon modified to look older" src="Assets/Icons/GitHub.ico" class="extra-nav">
-                            </a>
                         </div>
+                    </a>
+                    <a href="downloads.html" class="nav-link-main">
+                        <div class="nav-link-layout">
+                            <img alt="Download Folder Icon" src="Assets/Icons/Downloads.ico">
+                            <div class="nav-link-desc">
+                                <h3>Downloads</h3>
+                                <p>Download Classic 7 reliably from our stable and fast mirrors!</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="credits.html" class="nav-link-main">
+                        <div class="nav-link-layout">
+                            <img alt="People Together Icon" src="Assets/Icons/Credits.ico">
+                            <div class="nav-link-desc">
+                                <h3>Credits</h3>
+                                <p>The people who made Classic 7 alive and possible.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://ko-fi.com/patrickpbt" class="nav-link-main">
+                        <div class="nav-link-layout">
+                            <img alt="Star Icon" src="Assets/Icons/Donate.ico">
+                            <div class="nav-link-desc">
+                                <h3>Donate</h3>
+                                <p>If you like our work, please donate to us to support our work!</p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="extra-nav-links">
+                        <a href="https://discord.gg/srjXHNjbjS">
+                            <img alt="Mail Icon" src="Assets/Icons/Contact.ico" class="extra-nav">
+                        </a>
+                        <a href="https://github.com/Classic7-Mod">
+                            <img alt="GitHub Icon modified to look older" src="Assets/Icons/GitHub.ico"
+                                class="extra-nav">
+                        </a>
                     </div>
                 </div>
-                <div class="window-wrapper">
-                    <div class="main-content">
-                        <div class="main-desc">
-                            <h3>Download Classic 7 from our mirrors!</h3>
-                            <p class="mirror-p">You can download Classic 7 from the mirrors below, if one of them doesn't work, try the other.</p>
-                            <div class="mirror-links">
-                                <a class="w7-button" href="https://dl.equipable.org/uploads/Classic%207%20(Release%20Candidate%201.5).iso"><span>Main mirror (equipable.org)</span></a>
-                                <a class="w7-button" href="https://dl.equipable.org/uploads/Classic%207%20(Release%20Candidate%201.5).torrent"><span>Main mirror (Torrent) (equipable.org)</span></a>
-                                <a class="w7-button" href="https://www.mediafire.com/file/iawe66iwsouhgte/Classic+7+(Release+Candidate+1.5).iso"><span>MediaFire mirror</span></a>
-                            </div>
-                            <p class="thrashnet-ftp">We also have an FTP folder over at thrashnet.org! The Classic 7 ISOs are found in <code>/archive/classic7</code><br>
-                               The login details are: <code>Username: ftp :: Password: N/A :: Port: 21</code></p>
-                            <a class="w7-button" href="ftp://thrashnet.org/"><span>FTP link</span></a>
+            </div>
+            <div class="window-wrapper">
+                <div class="main-content">
+                    <div class="main-desc">
+                        <h3>Download Classic 7 from our mirrors!</h3>
+                        <p class="mirror-p">You can download Classic 7 from the mirrors below, if one of them doesn't
+                            work, try the other.</p>
+                        <div class="mirror-links">
+                            <a class="w7-button"
+                                href="https://dl.equipable.org/uploads/Classic%207%20(Release%20Candidate%201.5).iso"><span>Main
+                                    mirror (equipable.org)</span></a>
+                            <a class="w7-button"
+                                href="https://dl.equipable.org/uploads/Classic%207%20(Release%20Candidate%201.5).torrent"><span>Main
+                                    mirror (Torrent) (equipable.org)</span></a><br><br>
+                            <a class="w7-button"
+                                href="https://www.mediafire.com/file/iawe66iwsouhgte/Classic+7+(Release+Candidate+1.5).iso"><span>MediaFire
+                                    mirror</span></a>
                         </div>
-                        <div class="footer">
-                            <p>Classic 7 is not affiliated with Microsoft and is a fan-project. Windows and the Windows logo are property of Microsoft. | BG by <a href="https://unsplash.com/photos/starry-night-sky-over-silhouetted-rock-formations-dfbwo7oTpPo">Jony Y on Unsplash</a></p>
-                        </div>
+                        <p class="thrashnet-ftp">We also have an FTP folder over at thrashnet.org! The Classic 7 ISOs
+                            are found in <code>/archive/classic7</code><br>
+                            The login details are: <code>Username: ftp :: Password: N/A :: Port: 21</code></p>
+                        <a class="w7-button" href="ftp://thrashnet.org/"><span>FTP link</span></a>
+                        <p><br> </p>
+                    </div>
+                    <div class="footer">
+                        <p>Classic 7 is not affiliated with Microsoft and is a fan-project. Windows and the Windows logo
+                            are property of Microsoft. | BG by <a
+                                href="https://unsplash.com/photos/starry-night-sky-over-silhouetted-rock-formations-dfbwo7oTpPo">Jony
+                                Y on Unsplash</a></p>
                     </div>
                 </div>
             </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>

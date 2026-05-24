@@ -1,113 +1,138 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <base href="../">
-        <title>Welcome to Classic 7!</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" href="Assets/Branding/favicon.png">
 
-        <meta name="title" content="Classic 7 - Your PC, resimplified.">
-        <meta name="description" content="Classic 7 is a Windows 10 modification designed to look 1:1 with Windows 7.">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Classic 7!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Assets/Branding/favicon.png">
 
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://classic7.lol">
-        <meta property="og:title" content="Classic 7 — Your PC, resimplified.">
-        <meta property="og:description" content="Classic 7 is a Windows 10 modification designed to look 1:1 with Windows 7.">
-        <meta property="og:image" content="https://classic7.lol/Assets/Preview.png">
-        <meta property="og:image:width" content="1112">
-        <meta property="og:image:height" content="311">
-    </head>
-    <body>
-        <div class="ctn-wrapper">
-            <div class="container">
-                <div class="navigation-bar">
-                    <img alt="Classic 7 Wordmark" src="Assets/Branding/wordmark.png" class="nav-wm">
-                    <div class="nav-links">
-                        <a href="/" class="nav-link-main">
-                            <div class="nav-link-layout">
-                                <img alt="Home Icon" src="Assets/Icons/Home.ico">
-                                <div class="nav-link-desc">
-                                    <h3>Home</h3>
-                                    <p>The home page of the website.</p>
-                                </div>
+    <meta name="title" content="Classic 7 - Your PC, resimplified.">
+    <meta name="description" content="Classic 7 is a Windows 10 modification designed to look 1:1 with Windows 7.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://classic7.lol">
+    <meta property="og:title" content="Classic 7 — Your PC, resimplified.">
+    <meta property="og:description"
+        content="Classic 7 is a Windows 10 modification designed to look 1:1 with Windows 7.">
+    <meta property="og:image" content="https://classic7.lol/Assets/Preview.png">
+    <meta property="og:image:width" content="1112">
+    <meta property="og:image:height" content="311">
+</head>
+
+<body>
+    <div class="ctn-wrapper">
+        <div class="container">
+            <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle">
+            <div class="mobile-header">
+                <label for="mobile-menu-toggle" class="burger-icon">&#9776;</label>
+                <img alt="Classic 7 Wordmark" src="Assets/Branding/wordmark.png" class="mobile-nav-wm">
+            </div>
+            <div class="navigation-bar">
+                <img alt="Classic 7 Wordmark" src="Assets/Branding/wordmark.png" class="nav-wm">
+                <div class="nav-links">
+                    <a href="/" class="nav-link-main">
+                        <div class="nav-link-layout">
+                            <img alt="Home Icon" src="Assets/Icons/Home.ico">
+                            <div class="nav-link-desc">
+                                <h3>Home</h3>
+                                <p>The home page of the website.</p>
                             </div>
-                        </a>
-                        <a href="downloads.html" class="nav-link-main">
-                            <div class="nav-link-layout">
-                                <img alt="Download Folder Icon" src="Assets/Icons/Downloads.ico">
-                                <div class="nav-link-desc">
-                                    <h3>Downloads</h3>
-                                    <p>Download Classic 7 reliably from our stable and fast mirrors!</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="credits.html" class="nav-link-main">
-                            <div class="nav-link-layout">
-                                <img alt="People Together Icon" src="Assets/Icons/Credits.ico">
-                                <div class="nav-link-desc">
-                                    <h3>Credits</h3>
-                                    <p>The people who made Classic 7 alive and possible.</p>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="https://ko-fi.com/patrickpbt" class="nav-link-main">
-                            <div class="nav-link-layout">
-                                <img alt="Star Icon" src="Assets/Icons/Donate.ico">
-                                <div class="nav-link-desc">
-                                    <h3>Donate</h3>
-                                    <p>If you like our work, please donate to us to support our work!</p>
-                                </div>
-                            </div>
-                        </a>
-                        <div class="extra-nav-links">
-                            <a href="https://discord.gg/srjXHNjbjS">
-                                <img alt="Mail Icon" src="Assets/Icons/Contact.ico" class="extra-nav">
-                            </a>
-                            <a href="https://github.com/Classic7-Mod">
-                                <img alt="GitHub Icon modified to look older" src="Assets/Icons/GitHub.ico" class="extra-nav">
-                            </a>
                         </div>
+                    </a>
+                    <a href="downloads.html" class="nav-link-main">
+                        <div class="nav-link-layout">
+                            <img alt="Download Folder Icon" src="Assets/Icons/Downloads.ico">
+                            <div class="nav-link-desc">
+                                <h3>Downloads</h3>
+                                <p>Download Classic 7 reliably from our stable and fast mirrors!</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="credits.html" class="nav-link-main">
+                        <div class="nav-link-layout">
+                            <img alt="People Together Icon" src="Assets/Icons/Credits.ico">
+                            <div class="nav-link-desc">
+                                <h3>Credits</h3>
+                                <p>The people who made Classic 7 alive and possible.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://ko-fi.com/patrickpbt" class="nav-link-main">
+                        <div class="nav-link-layout">
+                            <img alt="Star Icon" src="Assets/Icons/Donate.ico">
+                            <div class="nav-link-desc">
+                                <h3>Donate</h3>
+                                <p>If you like our work, please donate to us to support our work!</p>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="extra-nav-links">
+                        <a href="https://discord.gg/srjXHNjbjS">
+                            <img alt="Mail Icon" src="Assets/Icons/Contact.ico" class="extra-nav">
+                        </a>
+                        <a href="https://github.com/Classic7-Mod">
+                            <img alt="GitHub Icon modified to look older" src="Assets/Icons/GitHub.ico"
+                                class="extra-nav">
+                        </a>
                     </div>
                 </div>
-                <div class="window-wrapper">
-                    <div class="main-content">
-                        <div class="main-desc">
-                            <h3>Credits to everyone for Classic 7!</h3>
-                            <p>Without these people, Classic 7 would not be here right now, and I'd like to thank all of them for playing a part in all of the releases of Classic 7 far. 
-                               If I missed you, contact me (nt5.1) on the Discord server found on the navigation bar! These credits are ripped out of Classic 7 1.0 (Release Candidate 1.5)</p>
-                            <ul>
-                                <li>Microsoft – The creator of Windows and many of the system applications, assets, etc.</li>
-                                <li>SandTechStuff – The creator of Aero11 (Main theme).</li>
-                                <li>vaporvance – The creator of Aero10 (Main shellstyle).</li>
-                                <li>aubymori – The creator of NTMU, Custom CMD Version Text, many Windhawk mods, and some NTMU packs (Windows 7 Ribbon, Windows 7 Ease of Access Dialog Packs).</li>
-                                <li>explorer7 Team – The creators of explorer7 (Windows 7 Explorer for Windows 10) and AuthUX (Windows 7 Logon Screen for Windows 10+).</li>
-                                <li>ImSwordQueen – The creator of the Windows 7 Help And Support (NTMU adaptation), Windows 7 Intl.cpl and Input.dll for Windows 10, and the fixer of Personalization Tweaks.</li>
-                                <li>loveofleytoo – The creator of Library Headers for Windows 10 (improved version) and Folder Thumbnail Skewing (Windhawk mods).</li>
-                                <li>Tech Stuff – Helper on Classic 7; assisted with programming and localization of Library Headers.</li>
-                                <li>Brawllux – The creator of the Control Panel Restoration Pack.</li>
-                                <li>ALTaleX531 – The creator of OpenGlass (the component that enables Aero glass effects).</li>
-                                <li>Windows User, Brawllux – Windows 7 timedate.cpl on Windows 10.</li>
-                                <li>Jevil7452, NikoHardbaskov, neptune.com, ImSwordQueen, thatlinuxdude – The original Windows 7 Help And Support method.</li>
-                                <li>Winaero.com – The creator of Winaero Tools and Classic Task Manager.</li>
-                                <li>kfh83 – The creator of Games Explorer, Windows 7 Tray Items, and Pane7 (NTMU packs).</li>
-                                <li>xdek – Helper on Classic 7; found many inaccuracies and provided files.</li>
-                                <li>Kévin Chalet – The creator of the Windows Media Center installer for Windows 10.</li>
-                                <li>xalejandro – The creator of Favorites in Navigation Pane, UIFILE Override, and Personalization Tweaks (Windhawk mods).</li>
-                                <li>kawapure – The creator of Fix Ribbon UI Insetting for Windows 10+ (Windhawk mod).</li>
-                                <li>anixx – The creator of Lines in MMC and Device Manager (Windhawk mod).</li>
-                                <li>CatmanFan – The creator of Accent Color Sync (Windhawk mod).</li>
-                                <li>rounk-ctrl – The creator of Legacy File Copy (Windhawk mod).</li>
-                                <li>Unknown Authors – DWM Thick Frames (Windhawk mod) and Windows DVD Maker Installer.</li>
-                                <li>m417z – The creator of Windhawk and Resource Redirect (Windhawk mod).</li>
-                                <li>You – For using this mod! :D</li>
-                            </ul>
-                        </div>
-                        <div class="footer">
-                            <p>Classic 7 is not affiliated with Microsoft and is a fan-project. Windows and the Windows logo are property of Microsoft. | BG by <a href="https://unsplash.com/photos/starry-night-sky-over-silhouetted-rock-formations-dfbwo7oTpPo">Jony Y on Unsplash</a></p>
-                        </div>
+            </div>
+            <div class="window-wrapper">
+                <div class="main-content">
+                    <div class="main-desc">
+                        <h3>Credits to everyone for Classic 7!</h3>
+                        <p>Without these people, Classic 7 would not be here right now, and I'd like to thank all of
+                            them for playing a part in all of the releases of Classic 7 far.
+                            If I missed you, contact me (nt5.1) on the Discord server found on the navigation bar! These
+                            credits are ripped out of Classic 7 1.0 (Release Candidate 1.5)</p>
+                        <ul>
+                            <li>Microsoft – The creator of Windows and many of the system applications, assets, etc.
+                            </li>
+                            <li>SandTechStuff – The creator of Aero11 (Main theme).</li>
+                            <li>vaporvance – The creator of Aero10 (Main shellstyle).</li>
+                            <li>aubymori – The creator of NTMU, Custom CMD Version Text, many Windhawk mods, and some
+                                NTMU packs (Windows 7 Ribbon, Windows 7 Ease of Access Dialog Packs).</li>
+                            <li>explorer7 Team – The creators of explorer7 (Windows 7 Explorer for Windows 10) and
+                                AuthUX (Windows 7 Logon Screen for Windows 10+).</li>
+                            <li>ImSwordQueen – The creator of the Windows 7 Help And Support (NTMU adaptation), Windows
+                                7 Intl.cpl and Input.dll for Windows 10, and the fixer of Personalization Tweaks.</li>
+                            <li>loveofleytoo – The creator of Library Headers for Windows 10 (improved version) and
+                                Folder Thumbnail Skewing (Windhawk mods).</li>
+                            <li>Tech Stuff – Helper on Classic 7; assisted with programming and localization of Library
+                                Headers.</li>
+                            <li>Brawllux – The creator of the Control Panel Restoration Pack.</li>
+                            <li>ALTaleX531 – The creator of OpenGlass (the component that enables Aero glass effects).
+                            </li>
+                            <li>Windows User, Brawllux – Windows 7 timedate.cpl on Windows 10.</li>
+                            <li>Jevil7452, NikoHardbaskov, neptune.com, ImSwordQueen, thatlinuxdude – The original
+                                Windows 7 Help And Support method.</li>
+                            <li>Winaero.com – The creator of Winaero Tools and Classic Task Manager.</li>
+                            <li>kfh83 – The creator of Games Explorer, Windows 7 Tray Items, and Pane7 (NTMU packs).
+                            </li>
+                            <li>xdek – Helper on Classic 7; found many inaccuracies and provided files.</li>
+                            <li>Kévin Chalet – The creator of the Windows Media Center installer for Windows 10.</li>
+                            <li>xalejandro – The creator of Favorites in Navigation Pane, UIFILE Override, and
+                                Personalization Tweaks (Windhawk mods).</li>
+                            <li>kawapure – The creator of Fix Ribbon UI Insetting for Windows 10+ (Windhawk mod).</li>
+                            <li>anixx – The creator of Lines in MMC and Device Manager (Windhawk mod).</li>
+                            <li>CatmanFan – The creator of Accent Color Sync (Windhawk mod).</li>
+                            <li>rounk-ctrl – The creator of Legacy File Copy (Windhawk mod).</li>
+                            <li>Unknown Authors – DWM Thick Frames (Windhawk mod) and Windows DVD Maker Installer.</li>
+                            <li>m417z – The creator of Windhawk and Resource Redirect (Windhawk mod).</li>
+                            <li>You – For using this mod! :D</li>
+                        </ul><br>
+                    </div>
+                    <div class="footer">
+                        <p>Classic 7 is not affiliated with Microsoft and is a fan-project. Windows and the Windows logo
+                            are property of Microsoft. | BG by <a
+                                href="https://unsplash.com/photos/starry-night-sky-over-silhouetted-rock-formations-dfbwo7oTpPo">Jony
+                                Y on Unsplash</a></p>
                     </div>
                 </div>
             </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
