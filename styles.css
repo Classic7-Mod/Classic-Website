@@ -148,13 +148,13 @@ body {
     box-shadow: 0 0 0 1px #AAAAAB;
     overflow: auto;
     padding: 12px 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer {
-    position: absolute;
-    padding-bottom: 12px;
     opacity: 0.5;
-    bottom: 0; 
+    margin-top: auto;
 }
 
 .desc-of-c7 {
@@ -217,4 +217,15 @@ body {
 
 .mirror-links, .thrashnet-ftp, .mirror-p, .dl-p {
     padding-bottom: 6px;
+}
+
+.download-header {
+    display: flex;
+    align-items: flex-end;
+}
+
+.download-count {
+    color: gray;
+    padding-left: 6px;
+    padding-bottom: 3px;
 }
